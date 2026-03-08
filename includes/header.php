@@ -76,7 +76,7 @@ if (!defined('PAGE_DESCRIPTION')) define('PAGE_DESCRIPTION', 'FundACause helps p
                 <?php if (isset($_SESSION['user_id'])): ?>
                     <a href="<?php echo SITE_URL; ?>/admin/" class="bg-brand-500 text-white px-4 py-2 rounded-lg hover:bg-brand-600 transition">Dashboard</a>
                 <?php else: ?>
-                    <a href="<?php echo SITE_URL; ?>/admin/login.php" class="bg-brand-500 text-white px-4 py-2 rounded-lg hover:bg-brand-600 transition">Admin Login</a>
+                    <a href="<?php echo SITE_URL; ?>/admin/login.php" class="bg-brand-500 text-white px-4 py-2 rounded-lg hover:bg-brand-600 transition">Login</a>
                 <?php endif; ?>
             </div>
 
@@ -98,7 +98,7 @@ if (!defined('PAGE_DESCRIPTION')) define('PAGE_DESCRIPTION', 'FundACause helps p
                 <?php if (isset($_SESSION['user_id'])): ?>
                     <a href="<?php echo SITE_URL; ?>/admin/" class="block py-2 px-4 bg-brand-500 text-white rounded-lg text-center">Dashboard</a>
                 <?php else: ?>
-                    <a href="<?php echo SITE_URL; ?>/admin/login.php" class="block py-2 px-4 bg-brand-500 text-white rounded-lg text-center">Admin Login</a>
+                    <a href="<?php echo SITE_URL; ?>/admin/login.php" class="block py-2 px-4 bg-brand-500 text-white rounded-lg text-center">Login</a>
                 <?php endif; ?>
             </div>
         </div>
