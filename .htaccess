@@ -1,0 +1,21 @@
+RewriteEngine On
+RewriteBase /fundacause/
+
+# Prevent direct access to config
+RewriteRule ^config/ - [F,L]
+
+# If the requested file or directory exists, serve it directly
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Static pages
+RewriteRule ^mission/?$ pages/mission.php [L]
+RewriteRule ^terms/?$ pages/terms.php [L]
+RewriteRule ^privacy/?$ pages/privacy.php [L]
+
+# Campaign page by hex ID (8 hex chars)
+RewriteRule ^([a-fA-F0-9]{8})/?$ campaign.php?hex=$1 [L,QSA]
+
+# Fallback to index
+RewriteRule ^$ index.php [L]
