@@ -25,7 +25,7 @@ include __DIR__ . '/../includes/header.php';
             <div class="bg-white rounded-2xl shadow-sm p-8 sm:p-12 space-y-6 text-gray-700 leading-relaxed">
                 <h2 class="text-2xl font-bold text-gray-800">Why FundACause Exists</h2>
                 <p>
-                    Every day, people around the world face challenges that require community support — from medical emergencies 
+                    Every day, people around the world face challenges that require community support from medical emergencies 
                     and disaster relief to education and community development. We believe that everyone deserves the chance to 
                     ask for help and receive it.
                 </p>
@@ -34,7 +34,7 @@ include __DIR__ . '/../includes/header.php';
                 <p>
                     FundACause provides a simple, transparent platform where anyone can create a fundraising campaign in minutes. 
                     Our mission is to remove barriers between those who need help and those who want to give. We handle the 
-                    technology so you can focus on what matters — making a real difference.
+                    technology so you can focus on what matters. Making a real difference.
                 </p>
 
                 <h2 class="text-2xl font-bold text-gray-800">Our Values</h2>
